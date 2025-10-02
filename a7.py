@@ -11,3 +11,11 @@ Read through the file **example1.py** for information on using the math module.
 * You will require the use of the round() function from example1.py
 '''
 
+F=62.5
+
+F=((F - 32) / 1.8)
+
+numDecimals = 1
+y=round(F,numDecimals)
+
+print(y)
